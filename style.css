@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #container {
+    background-color: #000;
+    color: #fff;
+    font-size: 150px;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+  }
+  
+  .animation {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+  }
+  
+  #finalcountdown {
+    font-size: 140px;
+    line-height: inherit;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #countdown1,
+  #countdown2,
+  #countdown3 {
+    color: red;
+  }
+  
+  #countdown1, #countdown2, #countdown3, #countdown4, #countdown5, #countdown6, #countdown7, #countdown8, #countdown9, #countdown10, #finalcountdown {
+    text-align: center;
+    visibility: hidden;
+  }
+  
+  @keyframes disappearing {
+    0% {
+      visibility: visible;
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+  
+  @keyframes appearaing {
+    0%, 100% {
+      visibility: visible;
+    }
+  }
+  
+  #countdown10 {
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown9 {
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown8 {
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown7 {
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown6 {
+    animation-delay: 4s;  
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown5 {
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown4 {
+    animation-delay: 6s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown3 {
+    animation-delay: 7s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown2 {
+    animation-delay: 8s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #countdown1 {
+    animation-delay: 9s;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #finalcountdown {
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: appearaing;
+    animation-timing-function: ease-in-out;
+  }
+  
+  #finalcountdown span {
+      color: #21b532;
+  }
