@@ -17,6 +17,9 @@
     top: 50%;
     transform: translateY(-50%);
     width: 100vw;
+    animation-duration: 1s;
+    animation-name: disappearing;
+    animation-timing-function: ease-in-out;
   }
   
   #finalcountdown {
@@ -61,65 +64,38 @@
   
   #countdown9 {
     animation-delay: 1s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown8 {
     animation-delay: 2s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown7 {
     animation-delay: 3s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown6 {
     animation-delay: 4s;  
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown5 {
     animation-delay: 5s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown4 {
     animation-delay: 6s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown3 {
     animation-delay: 7s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown2 {
     animation-delay: 8s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #countdown1 {
     animation-delay: 9s;
-    animation-duration: 1s;
-    animation-name: disappearing;
-    animation-timing-function: ease-in-out;
   }
   
   #finalcountdown {
